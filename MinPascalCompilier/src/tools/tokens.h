@@ -1,0 +1,23 @@
+/*
+ * tokens.h
+ *
+ *  Created on: 7 Ìבס 2014
+ *      Author:  Marina Mpourdakh 2111 Nikos Zois 2054
+ */
+
+#ifndef TOKENS_H_
+#define TOKENS_H_
+
+enum tokens {PROGRAM,FUNCTION,PROCEDURE,
+	BEGIN,END,IF,ELSE,SELECT,WHILE,DO,FOR,CALL,
+	RETURN,INPUT,PRINT,THEN,TO,STEP,PLUS,MINUS,MULTIPLE,DIVIDE,OPEN_BRACKET,CLOSE_BRACKET,
+	OPEN_PAREN,CLOSE_PAREN,OPEN_AGG,CLOSE_AGG,SEMI_COL,COMMA,PUT,AND,OR,NOT,LESS,GREATER,EQUAL,
+	LESS_OR_EQ,GREATER_OR_EQ,DIFF,NUMERIC,CONST,VARIABLE,ID,PAR};
+
+enum other {REF,CV};
+
+enum state {state0,state1,state2,state3,state4,
+	state5,state6,state7,state8,state9,OK,ERROR};
+
+
+#endif /* TOKENS_H_ */
